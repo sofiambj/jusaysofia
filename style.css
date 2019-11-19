@@ -1,0 +1,166 @@
+@import url('https://fonts.googleapis.com/css?family=DM+Sans&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'DM Sans', sans-serif;
+}
+
+header {
+    background-image: linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)), url(../Images/back.jpg);
+    height: 100vh;
+    background-size: cover;
+    background-position: center;
+}
+
+ul {
+    float: right;
+    list-style-type: none;
+    margin-top: 25px;
+}
+
+ul li {
+    display: inline-block;
+}
+
+ul li a {
+    text-decoration: none;
+    color: #fff;
+    padding: 5px 20px;
+    border: 1px solid transparent;
+    transition: 0.6s ease;
+}
+
+ul li a:hover {
+    background-color: #fff;
+    color: #000;
+}
+
+ul li.active a{
+    background-color: #fff;
+    color: #000;
+}
+
+.main {
+    max-width: 1200px;
+    margin: auto; 
+}
+
+.title {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+}
+
+.title h1 {
+    color: #fff;
+    font-size: 70px;
+    text-align: center;
+    font-weight: bolder;
+}
+
+.button {
+    position: absolute;
+    top: 70%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+}
+
+.btn {
+    border: 1px solid #fff;
+    padding: 10px 30px;
+    color: #fff;
+    text-decoration: none;
+    transition: 0.6s ease;
+}
+
+.btn:hover {
+    background-color: #fff;
+    color: #000;
+}
+
+.gallery {
+    margin: 0px 300px;
+    transform: translate(0%,23%);
+    position: absolute;
+}
+
+.gallery img {
+    padding: 5px;
+    width: 230px;
+    transform: translate(30%);
+    filter: grayscale(100%);
+}
+
+.gallery img:hover {
+    filter: grayscale(0%);
+    transition: 0.6s ease;
+}
+
+.gallery h2 {
+    color: #fff;
+    text-align: center;
+}
+
+.about {
+    transform: translate(15%,15%);
+}
+
+.about h1 {
+    color: #fff;
+    text-align: center;
+}
+
+.about img {
+    padding: 5px;
+    width: 300px;
+    transform: translate(105%);
+    filter: grayscale(100%);   
+    padding-bottom: 50px;
+    padding-top: 20px;
+}
+
+.about img:hover {
+    filter: grayscale(0%);
+    transition: 0.6s ease;
+}
+
+.about h4 {
+    color: #fff;
+    text-align: center;
+    transform: translate(-17%);
+    padding-bottom: 20p
+}
+
+.about h5{
+    color: #fff;
+    text-align: center;
+    transform: translate(-17%);
+}
+
+.about h6 {
+    color: #fff;
+    text-align: center;
+    transform: translate(-17%);
+}
+
+.hi {
+    position: absolute;
+    top: 65%;
+    left: 50%;
+    transform: translate(-50%,-90%);
+}
+
+.hi h1 {
+    text-align: center;
+    color: #fff;
+    font-weight: bolder;
+    font-size: 60px;
+}
+
+.hi img {
+    padding: 20px;
+    width: 100px;
+    transform: translate(200%)
+}
